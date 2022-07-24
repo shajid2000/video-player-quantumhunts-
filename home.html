@@ -1,0 +1,52 @@
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+
+</div> 
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>Video-player</title> <!-- font awesome cdn link  --> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+
+ 
+  <link rel="stylesheet" href="style.css"> 
+
+ </head> 
+
+ <body> <!-- header section starts--> 
+
+  <div class="player">
+
+    <video id="myvideo" class="player__video viewer" src="https://images.all-free-download.com/footage_preview/mp4/crowd_watching_natural_water_eruption_on_ground_6892347.mp4"> </video>
+    
+  
+    <div class="player__controls">
+      <div class="progress">
+        <div class="progress__filled"></div>
+      </div>
+      <button class="player__button toggle" title="Toggle Play">►</button>
+      <input type="range" name="volume" class="player__slider" min="0" max="1" step="0.05" value="1">
+      <input type="range" name="playbackRate" class="player__slider" min="0.5" max="2" step="0.1" value="1">
+      <button data-skip="-10" class="player__button">« 10s</button>
+      <button data-skip="25" class="player__button">25s »</button>
+    </div>
+   
+  </div>
+ <div>
+  <div class="share"> <a href="https://github.com/shajid2000/video-player-quantumhunts-" class="fab fa-github"></a> <a href="#" class="fab fa-twitter"></a> <a href="https://www.instagram.com/mdshajid2000/" class="fab fa-instagram"></a> <a href="https://www.linkedin.com/in/md-shajid-86a433231" class="fab fa-linkedin"></a> </div>
+ </div>
+  <script src="script.js"></script> 
+
+ </body>
+
+</html>
